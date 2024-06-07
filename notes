@@ -1,0 +1,81 @@
+*React supports spa(single page application development)
+*only one html file in this
+*body will switch in between
+in normal sites like fisat the page is taking loading time
+but in sites like react it uses spa,so no loading,body switches in between
+like react angular and viewjs etc following this.
+(all this will reduce coding lines)
+
+In this student-app,node modules is covering almost all size of this app.
+
+next.js (similar to react(widely used in industry))
+bootstrap(similar to tailwind( ""  "" ))
+
+(the ouput runned because of index file,but the body in another page)
+In index there should be a root,that root should decide which content will loaded on file
+
+in src index.js will decide what content should be displayed(app is imported(app.js))
+
+DOM - document object modal(what we see in body to body - that is dom)
+React will create a virtual dom ,and that dom ReactDom
+
+root.render
+
+In react class is a keyword,so we cannot use the word class in here.here className is using instead.
+but with the shortcut we can do like what we have previously done.
+
+Designing in app.js
+
+
+
+
+
+
+
+React is component based programming.
+every pages in the react is a component.
+for eg. one login page is a component and one part of a login page is also considered as component.
+
+advantage of component is that it is reusable.
+
+in yesterday's eg. add student page can be considered as a component and navbar also considered as comonent.
+
+in react we can create components in two ways
+
+1)class based components
+2)function based components(first intoduced)        (Most companies(80%) using this)
+
+src->create folder named components.->create new file(rules-Firstletter should be capital-AddStudent.jsx)
+
+after creating component import it to the App.js
+
+After the put all the links of bootstrap in index.html
+
+difference b/n js and jsx
+-------------------------
+we have to close all the tags properly.     Strictly we want to close tags
+
+remove class name=    from app.js
+
+
+create SearchStudent component.
+Student Name 
+search box
+button
+
+rafca(shortcut)
+
+<SearchStudent/>        this is the way in which we can in apply App.js
+
+The component name should be in Capital Name.
+
+to use one component in another component.
+take AddStudent -
+then put navbar in above it.
+
+
+without refreshing page we are gettin contents of different pages - spc
+
+whenever we do Navbar(or any component) in another component like Search Student(we have to import it,for eg. type NavB,then we will get suggestion,and then import it.)
+
+Next is routing
